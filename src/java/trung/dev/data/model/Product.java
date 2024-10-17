@@ -2,7 +2,6 @@ package trung.dev.data.model;
 
 import trung.dev.data.dao.DatabaseDao;
 import java.sql.Timestamp;
-import java.util.List;
 
 public class Product {
 
@@ -15,16 +14,14 @@ public class Product {
     private int view;
     private int categoryId;
     private Timestamp createdAt;
-    private List<String> photoPaths; // Sử dụng List để lưu danh sách đường dẫn ảnh
 
-    public Product(String name, String description, String thumbnail, double price, int quantity, int categoryId, List<String> photoPaths) {
+    public Product(String name, String description, String thumbnail, double price, int quantity, int categoryId) {
         this.name = name;
         this.description = description;
         this.thumbnail = thumbnail;
         this.price = price;
         this.quantity = quantity;
         this.categoryId = categoryId;
-        this.photoPaths = photoPaths; // Khởi tạo danh sách ảnh
     }
 
     public Product(String name, String description, String thumbnail, double price, int quantity, int view, int categoryId, Timestamp createdAt) {
@@ -126,15 +123,7 @@ public class Product {
         this.createdAt = createdAt;
     }
 
-    public Category getCategory() {
+    public Category getCategory(){
         return DatabaseDao.getInstance().getCategoryDao().find(this.categoryId);
-    }
-
-    public List<String> getPhotoPaths() {
-        return photoPaths; // Getter cho danh sách ảnh
-    }
-
-    public void setPhotoPaths(List<String> photoPaths) {
-        this.photoPaths = photoPaths; // Setter cho danh sách ảnh
     }
 }
