@@ -1,110 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cara</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="utf-8" />
+    <title>Ecomus - Ultimate HTML</title>
+
+    <meta name="author" content="themesflat.com" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+
+    <!-- font -->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="fonts/font-icons.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="./assets/images/logo/favicon.png" />
+    <link
+        rel="apple-touch-icon-precomposed"
+        href="./assets/images/logo/favicon.png"
+        />
+    <!-- Bootstrap CSS & JS (if not already included in your project) -->
+    <link
+        href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+        rel="stylesheet"
+        />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </head>
+<%@include file = "./inc/header.jsp" %>
+<div id="wrapper">
+    <!-- page-title -->
+    <div class="tf-page-title style-2" style="margin-top: 90px;">
+        <div class="container-full">
+            <div class="heading text-center">#Contact Us</div>
+        </div>
+    </div>
+    <!-- /page-title -->
 
-<body>
-
-     <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-
-    <%@include file="inc/header.jsp" %>
-
-    <section id="page-header" class="about-header">
-        <h2>#let's_talk</h2>
-        <p>LEAVE A MESSAGE, We love to hear from you!</p>
-    </section>
-
-    <section id="contact" class="section-p1">
+    <!-- form -->
+    <section class="flat-spacing-21">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="details">
-                        <span>GET IN TOUCH</span>
-                        <h2>Visit one of our agency locations or contact us today</h2>
-                        <h3>Head Office</h3>
-                        <div>
-                            <li>
-                                <i class="fa-regular fa-map"></i>
-                                <p>Nguyen Hue - Hue</p>
-                            </li>
-                            <li>
-                                <i class="fa-regular fa-envelope"></i>
-                                <p>contact@gmail.com</p>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-phone"></i>
-                                +84000111222
-                            </li>
-                            <li>
-                                <i class="fa-regular fa-clock"></i>
-                                <p>8AM - 21PM, Mon - Sat</p>
-                            </li>
-                        </div>
+            <div class="tf-grid-layout gap30 lg-col-2">
+                <div class="tf-content-left">
+                    <h5 class="mb_20">Visit Our Store</h5>
+                    <div class="mb_20">
+                        <p class="mb_15"><strong>Address</strong></p>
+                        <p>66 Mott St, New York, New York, Zip Code: 10006, AS</p>
+                    </div>
+                    <div class="mb_20">
+                        <p class="mb_15"><strong>Phone</strong></p>
+                        <p>(623) 934-2400</p>
+                    </div>
+                    <div class="mb_20">
+                        <p class="mb_15"><strong>Email</strong></p>
+                        <p>EComposer@example.com</p>
+                    </div>
+                    <div class="mb_36">
+                        <p class="mb_15"><strong>Open Time</strong></p>
+                        <p class="mb_15">Our store has re-opened for shopping, </p>
+                        <p>exchange Every day 11am to 7pm</p>
+                    </div>
+                    <div>
+                        <ul class="tf-social-icon d-flex gap-20 style-default">
+                            <li><a href="#" class="box-icon link round social-facebook border-line-black"><i class="icon fs-14 icon-fb"></i></a></li>
+                            <li><a href="#" class="box-icon link round social-twiter border-line-black"><i class="icon fs-12 icon-Icon-x"></i></a></li>
+                            <li><a href="#" class="box-icon link round social-instagram border-line-black"><i class="icon fs-14 icon-instagram"></i></a></li>
+                            <li><a href="#" class="box-icon link round social-tiktok border-line-black"><i class="icon fs-14 icon-tiktok"></i></a></li>
+                            <li><a href="#" class="box-icon link round social-pinterest border-line-black"><i class="icon fs-14 icon-pinterest-1"></i></a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1238.156589141328!2d107.58738095850609!3d16.45748791701312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a147ba6bdbff%3A0x2e605afab4951ad9!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEPDtG5nIG5naGnhu4dwIEh14bq_!5e0!3m2!1svi!2s!4v1718154662562!5m2!1svi!2s"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="tf-content-right">
+                    <h5 class="mb_20">Get in Touch</h5>
+                    <p class="mb_24">If you?ve got great products your making or looking to work with us then drop us a line.</p>
+                    <div>
+                        <form class="form-contact" id="contactform" action="https://themesflat.co/html/ecomus/contact/contact-process.php" method="post">
+                            <div class="d-flex gap-15 mb_15">
+                                <fieldset class="w-100">
+                                    <input type="text" name="name" id="name" required placeholder="Name *"/>
+                                </fieldset>
+                                <fieldset class="w-100">
+                                    <input type="email" name="email" id="email" required placeholder="Email *"/>
+                                </fieldset>
+                            </div>
+                            <div class="mb_15">
+                                <textarea placeholder="Message" name="message" id="message" required cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="send-wrap">
+                                <button type="submit" class="tf-btn w-100 radius-3 btn-fill animate-hover-btn justify-content-center">Send</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- /form -->
 
-    <section id="form-details">
-        <form action="">
-            <span>LEAVE A MESSAGE</span>
-            <h2>We love to hear from you</h2>
-            <input type="text" placeholder="Your name">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message">
-            </textarea>
-            <button class="normal">Submit</button>
-        </form>
+    <!-- map -->
+    <div class="w-100">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.3713558263516!2d107.58540407491289!3d16.456723484280413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a147b0e94d95%3A0x800cd100ca8d939b!2zNzAgTmd1eeG7hW4gSHXhu4csIFbEqW5oIE5pbmgsIFRow6BuaCBwaOG7kSBIdeG6vywgVGjhu6thIFRoacOqbiBIdeG6vywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1726824489377!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- /map -->
 
-        <div class="people">
-            <div>
-                <img src="./assets/img/people/1.png" alt="">
-                <p><span>John Doe</span>Marketing Manager <br> Phone: +000 111 222 33 <br> Email: contact@gmail.com</p>
-            </div>
-            <div>
-                <img src="./assets/img/people/2.png" alt="">
-                <p><span>William Smith</span>Marketing Manager <br> Phone: +000 111 222 33 <br> Email: contact@gmail.com</p>
-            </div>
-            <div>
-                <img src="./assets/img/people/3.png" alt="">
-                <p><span>Enma Stone</span>Marketing Manager <br> Phone: +000 111 222 33 <br> Email: contact@gmail.com</p>
-            </div>
-        </div>
-    </section>
+    <%@include file = "./inc/footer.jsp" %>
 
-    <section id="newsletter" class="section-p1 section-m1">
-        <div class="newstext">
-            <h4>Sign Up For Newsletters</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your email address">
-            <button class="normal">Sign up</button>
-        </div>
-    </section>
 
-    <%@include file="inc/footer.jsp" %>
+</div>
 
+<!-- gotop -->
+<div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 286.138;"></path>
+    </svg>
+</div>
+<!-- /gotop -->
+
+<!-- Javascript -->
+<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+<script
+    type="text/javascript"
+    src="./assets/js/swiper-bundle.min.js"
+></script>
+<script type="text/javascript" src="./assets/js/carousel.js"></script>
+<script
+    type="text/javascript"
+    src="./assets/js/bootstrap-select.min.js"
+></script>
+<script type="text/javascript" src="./assets/js/lazysize.min.js"></script>
+<script
+    type="text/javascript"
+    src="./assets/js/bootstrap-select.min.js"
+></script>
+<script type="text/javascript" src="./assets/js/count-down.js"></script>
+<script type="text/javascript" src="./assets/js/wow.min.js"></script>
+<script type="text/javascript" src="./assets/js/multiple-modal.js"></script>
+<script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
 
+
+<!-- Mirrored from themesflat.co/html/ecomus/contact-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Sep 2024 12:27:42 GMT -->
 </html>

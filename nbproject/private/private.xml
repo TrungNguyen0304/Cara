@@ -12,13 +12,10 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/src/java/trung/dev/data/model/User.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/src/java/trung/dev/VerificationServlet.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/src/java/trung/dev/util/EmailUtil.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/src/java/trung/dev/data/dao/UserDAO.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/src/java/trung/dev/util/Constants.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/src/java/trung/dev/RegisterServlet.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/src/java/trung/dev/data/impl/UserImpl.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/src/java/trung/dev/admin/user/DeleteUserServlet.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/web/cart.jsp</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/web/about.jsp</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Cara/src/java/trung/dev/admin/user/CreateUserServlet.java</file>
         </group>
     </open-files>
 </project-private>

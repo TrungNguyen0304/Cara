@@ -9,10 +9,6 @@
         <servlet-class>trung.dev.HomeServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>BlogServlet</servlet-name>
-        <servlet-class>trung.dev.BlogServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>CartServlet</servlet-name>
         <servlet-class>trung.dev.CartServlet</servlet-class>
     </servlet>
@@ -140,6 +136,10 @@
         <servlet-name>VerificationServlet</servlet-name>
         <servlet-class>trung.dev.VerificationServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ContactServlet</servlet-name>
+        <servlet-class>trung.dev.ContactServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AboutServlet</servlet-name>
         <url-pattern>/AboutServlet</url-pattern>
@@ -147,10 +147,6 @@
     <servlet-mapping>
         <servlet-name>HomeServlet</servlet-name>
         <url-pattern>/HomeServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>BlogServlet</servlet-name>
-        <url-pattern>/BlogServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>CartServlet</servlet-name>
@@ -302,5 +298,9 @@
     <servlet-mapping>
         <servlet-name>VerificationServlet</servlet-name>
         <url-pattern>/VerificationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ContactServlet</servlet-name>
+        <url-pattern>/ContactServlet</url-pattern>
     </servlet-mapping>
 </web-app>

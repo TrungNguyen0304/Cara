@@ -1,148 +1,284 @@
-<!DOCTYPE html>
-<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Ecomus - Ultimate HTML</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cara</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-              integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-              integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-              crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
+    <meta name="author" content="themesflat.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <body>
+    <!-- font -->
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="./assets/fonts/font-icons.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/drift-basic.min.css">
+    <link rel="stylesheet" href="./assets/css/photoswipe.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet " type="text/css" href="./assets/css/styles.css" />
 
-        <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="./assets/images/logo/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="./assets/images/logo/favicon.png">
+</head>
+<%@include file = "./inc/header.jsp" %>
+<div id="wrapper">
 
-        <%@include file="inc/header.jsp" %>
-
-
-        <section id="page-header" class="blog-header">
-            <h2>#readmore</h2>
-            <p>Read all case studies about our products!</p>
-        </section>
-
-        <section id="blog">
-            <div class="container blog-box">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="blog-img">
-                            <img class="poi-img" src="./assets/img/blog/b1.jpg" alt="">
-                            <h1>6/12</h1>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-details">
-                            <h4>The Cotton-Jersey Zip-up Hoodie</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sed voluptate incidunt
-                                deleniti labore eaque nostrum reiciendis obcaecati. Numquam harum maxime doloribus quod
-                                ea veniam ab odio in, ad autem...</p>
-                            <a href="#">CONTINUE READING</a>
+    <!-- Slider -->
+    <section class="tf-slideshow about-us-page position-relative" style="margin-top: 90px;">
+        <div class="banner-wrapper">
+            <img class="lazyload" src="./assets/images/slider/about-banner-01.jpg" data-src="./assets/images/slider/about-banner-01.jpg" alt="image-collection">
+            <div class="box-content text-center">
+                <div class="container">
+                    <div class="text text-white">Empowering women to achieve <br class="d-xl-block d-none"> fitness goals with style</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Slider -->
+    <!-- flat-title -->
+    <section class="flat-spacing-9">
+        <div class="container">
+            <div class="flat-title my-0">
+                <span class="title">We are Ecomus</span>
+                <p class="sub-title text_black-2">
+                    Welcome to our classic women's clothing store, where we believe <br class="d-xl-block d-none">
+                    that timeless style never goes out of fashion. Our collection features classic <br class="d-xl-block d-none">
+                    pieces that are both stylish and versatile, perfect for building a <br class="d-xl-block d-none">
+                    wardrobe that will last for years.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- /flat-title -->
+    <div class="container"><div class="line"></div></div>
+    <!-- image-text -->
+    <section class="flat-spacing-23 flat-image-text-section">
+        <div class="container">
+            <div class="tf-grid-layout md-col-2 tf-img-with-text style-4">
+                <div class="tf-image-wrap">
+                    <img class="lazyload w-100" data-src="./assets/images/collections/collection-69.jpg" src="./assets/images/collections/collection-69.jpg" alt="collection-img">
+                </div>
+                <div class="tf-content-wrap px-0 d-flex justify-content-center w-100">
+                    <div>
+                        <div class="heading">Established - 1995</div>
+                        <div class="text">
+                            Ecomus was founded in 1995 by Jane Smith, a fashion lover with a <br class="d-xl-block d-none">
+                            passion for timeless style. Jane had always been drawn to classic <br class="d-xl-block d-none">
+                            pieces that could be worn season after season, and she believed that <br class="d-xl-block d-none">
+                            there was a gap in the market for a store that focused solely on classic <br class="d-xl-block d-none">
+                            women's clothing. She opened the first store in a small town in New <br class="d-xl-block d-none">
+                            England, where it quickly became a local favorite.
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container blog-box">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="blog-img">
-                            <img class="poi-img" src="./assets/img/blog/b2.jpg" alt="">
-                            <h1>4/12</h1>
+        </div>
+    </section>
+    <section class="flat-spacing-15">
+        <div class="container">
+            <div class="tf-grid-layout md-col-2 tf-img-with-text style-4">
+                <div class="tf-content-wrap px-0 d-flex justify-content-center w-100">
+                    <div>
+                        <div class="heading">Our mission</div>
+                        <div class="text">
+                            Our mission is to empower people through sustainable fashion. <br class="d-xl-block d-none">
+                            We want everyone to look and feel good, while also doing our part to <br class="d-xl-block d-none">
+                            help the environment.We believe that fashion should be stylish, <br class="d-xl-block d-none">
+                            affordable and accessible to everyone. Body positivity and inclusivity <br class="d-xl-block d-none">
+                            are values that are at the heart of our brand.
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="blog-details">
-                            <h4>How to Style a Quiff</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sed voluptate incidunt
-                                deleniti labore eaque nostrum reiciendis obcaecati. Numquam harum maxime doloribus quod
-                                ea veniam ab odio in, ad autem...</p>
-                            <a href="#">CONTINUE READING</a>
+                </div>
+                <div class="grid-img-group">
+                    <div class="tf-image-wrap box-img item-1">
+                        <div class="img-style">
+                            <img class="lazyload" src="./assets/images/collections/collection-71.jpg" data-src="./assets/images/collections/collection-71.jpg" alt="img-slider">
+                        </div>
+                    </div>
+                    <div class="tf-image-wrap box-img item-2">
+                        <div class="img-style">
+                            <img class="lazyload" src="./assets/images/collections/collection-70.jpg" data-src="./assets/images/collections/collection-70.jpg" alt="img-slider">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container blog-box">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="blog-img">
-                            <img class="poi-img" src="./assets/img/blog/b3.jpg" alt="">
-                            <h1>1/12</h1>
+        </div>
+    </section>
+    <!-- /image-text -->
+    <!-- iconbox -->
+    <section>
+        <div class="container">
+            <div class="bg_grey-2 radius-10 flat-wrap-iconbox">
+                <div class="flat-title lg">
+                    <span class="title fw-5">Quality is our priority</span>
+                    <div>
+                        <p class="sub-title text_black-2">Our talented stylists have put together outfits that are perfect for the season.</p> 
+                        <p class="sub-title text_black-2">They've variety of ways to inspire your next fashion-forward look.</p>
+                    </div>
+                </div>
+                <div class="flat-iconbox-v3 lg">
+                    <div class="wrap-carousel wrap-mobile">
+                        <div class="swiper tf-sw-mobile" data-preview="1" data-space="15">
+                            <div class="swiper-wrapper wrap-iconbox lg">
+                                <div class="swiper-slide">
+                                    <div class="tf-icon-box text-center">
+                                        <div class="icon">
+                                            <i class="icon-materials"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="title">High-Quality Materials</div>
+                                            <p class="text_black-2">Crafted with precision and excellence, our activewear is meticulously engineered using premium materials to ensure unmatched comfort and durability.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="tf-icon-box text-center">
+                                        <div class="icon">
+                                            <i class="icon-design"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="title">Laconic Design</div>
+                                            <p class="text_black-2">Simplicity refined. Our activewear embodies the essence of minimalistic design, delivering effortless style that speaks volumes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="tf-icon-box text-center">
+                                        <div class="icon">
+                                            <i class="icon-sizes"></i>
+                                        </div>
+                                        <div class="content">
+                                            <div class="title">Various Sizes</div>
+                                            <p class="text_black-2">Designed for every body and anyone, our activewear embraces diversity with a wide range of sizes and shapes, celebrating the beauty of individuality.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="sw-dots style-2 sw-pagination-mb justify-content-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /iconbox -->
+    <!-- Testimonial -->
+    <section class="flat-testimonial-v2 flat-spacing-24">
+        <div class="container">
+            <div class="wrapper-thumbs-testimonial-v2 flat-thumbs-testimonial">
+                <div class="box-left">
+                    <div class="swiper tf-sw-tes-2" data-preview="1" data-space-lg="40" data-space-md="30">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-item lg lg-2">
+                                    <h4 class="mb_40">Our customer?s reviews</h4>
+                                    <div class="icon">
+                                        <img class="lazyload" data-src="./assets/images/item/quote.svg" alt="" src="./assets/images/item/quote.svg">
+                                    </div>
+                                    <div class="rating">
+                                        <i class="icon-start"></i>
+                                        <i class="icon-start"></i>
+                                        <i class="icon-start"></i>
+                                        <i class="icon-start"></i>
+                                        <i class="icon-start"></i>
+                                    </div>
+                                    <p class="text">
+                                        "I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there.The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."
+                                    </p>
+                                    <div class="author box-author">
+                                        <div class="box-img d-md-none rounded-0">
+                                            <img class="lazyload img-product" data-src="./assets/images/item/tets3.jpg" src="./assets/images/item/tets3.jpg" alt="image-product">
+                                        </div>
+                                        <div class="content">
+                                            <div class="name">Robert smith</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-item lg lg-2">
+                                    <h4 class="mb_40">Our customer?s reviews</h4>
+                                    <div class="icon">
+                                        <img class="lazyload" data-src="./assets/images/item/quote.svg" alt="" src="./assets/images/item/quote.svg">
+                                    </div>
+                                    <div class="rating">
+                                        <i class="icon-start"></i>
+                                        <i class="icon-start"></i>
+                                        <i class="icon-start"></i>
+                                        <i class="icon-start"></i>
+                                        <i class="icon-start"></i>
+                                    </div>
+                                    <p class="text">
+                                        "I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there.The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."
+                                    </p>
+                                    <div class="author box-author">
+                                        <div class="box-img d-md-none rounded-0">
+                                            <img class="lazyload img-product" data-src="./assets/images/item/tets4.jpg" src="./assets/images/item/tets4.jpg" alt="image-product">
+                                        </div>
+                                        <div class="content">
+                                            <div class="name">Jenifer Unix</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="blog-details">
-                            <h4>Must-Have Skater Girl Items</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sed voluptate incidunt
-                                deleniti labore eaque nostrum reiciendis obcaecati. Numquam harum maxime doloribus quod
-                                ea veniam ab odio in, ad autem...</p>
-                            <a href="#">CONTINUE READING</a>
+                    <div class="d-md-flex d-none box-sw-navigation">
+                        <div class="nav-sw nav-next-slider nav-next-tes-2"><span class="icon icon-arrow-left"></span></div>
+                        <div class="nav-sw nav-prev-slider nav-prev-tes-2"><span class="icon icon-arrow-right"></span></div>
+                    </div>
+                    <div class="d-md-none sw-dots style-2 sw-pagination-tes-2"></div>
+                </div>
+                <div class="box-right">
+                    <div class="swiper tf-thumb-tes" data-preview="1" data-space="30">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="img-sw-thumb">
+                                    <img class="lazyload img-product" data-src="./assets/images/item/tets3.jpg" src="./assets/images/item/tets3.jpg" alt="image-product">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img-sw-thumb">
+                                    <img class="lazyload img-product" data-src="./assets/images/item/tets4.jpg" src="./assets/images/item/tets4.jpg" alt="image-product">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container blog-box">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="blog-img">
-                            <img class="poi-img" src="./assets/img/blog/b4.jpg" alt="">
-                            <h1>29/11</h1>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-details">
-                            <h4>Runway-inspired Trends</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sed voluptate incidunt
-                                deleniti labore eaque nostrum reiciendis obcaecati. Numquam harum maxime doloribus quod
-                                ea veniam ab odio in, ad autem...</p>
-                            <a href="#">CONTINUE READING</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container blog-box">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="blog-img">
-                            <img class="poi-img" src="./assets/img/blog/b6.jpg" alt="">
-                            <h1>28/11</h1>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-details">
-                            <h4>AW20 Menswear Trends</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sed voluptate incidunt
-                                deleniti labore eaque nostrum reiciendis obcaecati. Numquam harum maxime doloribus quod
-                                ea veniam ab odio in, ad autem...</p>
-                            <a href="#">CONTINUE READING</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-       
+        </div>
+    </section>
+    <!-- /Testimonial -->
+    <div class="container"><div class="line"></div></div>
+ 
+    <%@include file = "./inc/footer.jsp" %>
 
-        <section id="pagination" class="section-p1">
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-        </section>
+</div>
 
-        <section id="newsletter" class="section-p1 section-m1">
-            <div class="newstext">
-                <h4>Sign Up For Newsletters</h4>
-                <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
-            </div>
-            <div class="form">
-                <input type="text" placeholder="Your email address">
-                <button class="normal">Sign up</button>
-            </div>
-        </section>
+<!-- gotop -->
+<div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 286.138;"></path>
+    </svg>
+</div>
+<!-- /gotop -->
 
-        <%@include file="inc/footer.jsp" %>
 
-    </body>
+<!-- Javascript -->
+<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="./assets/js/carousel.js"></script>
+<script type="text/javascript" src="./assets/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="./assets/js/lazysize.min.js"></script>
+<script type="text/javascript" src="./assets/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="./assets/js/count-down.js"></script>
+<script type="text/javascript" src="./assets/js/wow.min.js"></script>
+<script type="text/javascript" src="./assets/js/multiple-modal.js"></script>
+<script type="text/javascript" src="./assets/js/main.js"></script>
+</body>
 
+
+<!-- Mirrored from themesflat.co/html/ecomus/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Sep 2024 12:27:31 GMT -->
 </html>

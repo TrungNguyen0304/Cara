@@ -43,13 +43,19 @@
                                 </ul>
 
                             </li>
+                            <li class="menu-item position-relative">
+
+                                <c:if test="${sessionScope.user != null}">
+                                    <a href="OrderHistoryServlet" class="item-link">Myorder</i></a>
+                                </c:if>
+                            </li>
 
                             <li class="menu-item position-relative">
                                 <a href="ContactServlet" class="item-link">Cactact</i></a>
 
                             </li>
                             <li class="menu-item position-relative">
-                                <a href="BlogServlet" class="item-link">Blog</a>
+                                <a href="AboutServlet" class="item-link">About</a>
 
                             </li>
 
@@ -84,7 +90,7 @@
 
                             <c:if test="${sessionScope.user != null}">
                                 <a href="LogoutServlet">Logout</a>
-                                <a href="OrderHistoryServlet">Đơn hàng đã đặt</a>
+
                             </c:if>
                         </div>
                     </li>       
